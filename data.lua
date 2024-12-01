@@ -1,7 +1,7 @@
 local drtEntity = table.deepcopy(data.raw["ammo-turret"]["rocket-turret"]) -- copy the table that defines the original rocket turret
 
 drtEntity.name = "directional-rocket-turret"
-drtEntity.attack_parameters.turn_range = 0.33
+drtEntity.attack_parameters.turn_range = 0.3
 drtEntity.turret_base_has_direction = true
 drtEntity.minable = {
     mining_time = 0.5, 
